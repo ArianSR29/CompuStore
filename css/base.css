@@ -149,3 +149,7 @@ nav ul li a{
     font-size: 25px;
     color: #a77b1e;
 }
+.cerrar:hover{
+    background: red;
+    color: #fff;
+}
