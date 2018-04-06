@@ -1,0 +1,151 @@
+@font-face{
+    font-family: Roboto-Regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+    font-family: Roboto-Bold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: content-box;
+}
+header{
+    width: 95%;
+    margin: 0 auto;
+    border-bottom: solid 1px #a77b1e;
+
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-family: Roboto-Regular;
+    padding: 10px 20px;
+    border: solid 1px #a77b1e;
+    color: black;
+    margin-right: 10px;
+}
+.main{
+    width: 95%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+}
+.producto {
+    width: 40%;
+    margin: 10px auto;
+    border: solid 1px #a77b1e;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+}
+.s-catalogo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+.s-catalogo h4{
+    font-size: 20px;
+    font-family: Roboto-Bold;
+}
+.s-catalogo h6{
+    font-size: 15px;
+    font-family: Roboto-Bold;
+    text-align: right;
+}
+.producto p{
+    font-size: 14px;
+    font-family: Roboto-Regular;
+
+}
+.ocultar {
+    opacity: 0.4;
+    transition: all 500ms ease;
+}
+.producto .imagen {
+    text-align: center;
+    border: solid 1px #a77b1e;
+    width: 50%;
+    margin: 20px auto;
+}
+.imagen img{
+    width: 100px;
+    height: 70px;
+}
+.producto .precio {
+    font-size: 20px;
+    border-bottom: 1px solid #a77b1e;
+    text-align: right;
+    font-family: Roboto-Bold;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 10px;
+    font-family: Roboto-Bold;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background: #a77b1e;
+    color: #fff;
+}
+.btn:hover{
+    background: rgb(133, 97, 25);
+    transition: all 500ms ease;
+}
+.carrito {
+    border: solid 1px #a77b1e;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    font-family: Roboto-Bold;
+    background: rgba(200, 200, 200, 0.1);
+    margin-top: 10px;
+}
+.carrito h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.carrito li{
+    font-family: Roboto-Regular;
+    margin-bottom: 10px;
+}
+.c-confirmacion{
+    width: 70%;
+    margin: 0 auto;
+    border: solid 1px #a77b1e;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px;
+}
+.c-confirmacion h1{
+    font-family: Roboto-Bold;
+    text-align: center;
+    font-size: 30px;
+}
+.c-confirmacion h2{
+    font-family: Roboto-Bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.list-group{
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    font-size: 18px;
+}
+.s-total{
+    font-size: 25px;
+    color: #a77b1e;
+}

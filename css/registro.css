@@ -1,0 +1,29 @@
+.c-main-registro, .c-main-login{
+    width: 60%;
+    margin: 50px auto;
+}
+.reg-form{
+    text-align: center;
+}
+.mdl-textfield{
+    width: 100%!important;
+}
+.mdl-textfield__input{
+    border-bottom: solid 1px #a77b1e!important;
+}
+.mdl-textfield__label:after{
+    background-color: #a77b1e!important;
+}
+.mdl-textfield--floating-label.is-invalid .mdl-textfield__label{
+    color: #a77b1e!important;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+    color: #a77b1e!important;
+}
+.mdl-button{
+    width: 50%;
+    background: #ecbb518c!important;
+}
+.mdl-button--primary.mdl-button--primary{
+    color: #a77b1e!important;    
+}
